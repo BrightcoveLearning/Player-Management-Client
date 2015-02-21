@@ -1,0 +1,25 @@
+{
+  "name": "player-management-client",
+  "version": "0.1.3",
+  "description": "Node Module for interacting with the Brightcove Player Management API",
+  "main": "lib/playerManagementAPI.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@bithub.brightcove.com:videocloud/player-management-client.git"
+  },
+  "dependencies": {
+    "path": "^0.4.9",
+    "request": "~2.31.0",
+    "url": "^0.10.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.11.0",
+    "load-grunt-tasks": "^0.6.0",
+    "mocha-teamcity-reporter": "0.0.4",
+    "time-grunt": "^1.0.0",
+    "yargs": "^1.3.1"
+  },
+  "author": "Tom Ruggles"
+}
